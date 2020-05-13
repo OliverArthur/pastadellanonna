@@ -11,7 +11,11 @@ class App extends StatelessWidget{
   Widget build(BuildContext context) {
    return MaterialApp(
      title: 'Pasta Della Nonna',
+     theme: ThemeData(
+       primaryColor: Colors.pink
+     ),
      home: new SplashScreen(),
+     debugShowCheckedModeBanner: false,
    );
   }
 }
